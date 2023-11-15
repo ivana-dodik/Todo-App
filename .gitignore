@@ -1,0 +1,13 @@
+# Ignore IntelliJ IDEA project files
+ToDo/.idea/
+
+# Ignore compiled Java files and build artifacts
+ToDo/out/
+ToDo/target/
+
+# Ignore Node.js modules and build artifacts for React app
+todo_frontend/node_modules/
+todo_frontend/build/
+
+# Ignore OS generated files
+.DS_Store

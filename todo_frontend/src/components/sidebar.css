@@ -1,0 +1,49 @@
+.sidebar {
+    background-color: rgba(255, 255, 255, 0.9);
+    /* slightly transparent white */
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.sidebar h2 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    margin-bottom: 5px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.category-name:hover {
+    text-decoration: underline;
+}
+
+.add-category form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.add-category input {
+    margin-right: 5px;
+}
+
+.add-category button {
+    margin-left: 5px;
+}
+
+.selected {
+    font-weight: bold;
+}
